@@ -18,15 +18,15 @@ public class InspectMe
         System.out.println();
         choice = readLineWithDefault("convert", "Choose between 'convert', 'compare' or 'stats':");
         
-        if(choice == "convert")
+        if(choice.equals("convert"))
         {
             unitConvertMenu();
         }
-        else if(choice == "compare")
+        else if(choice.equals("compare"))
         {
             unitCompare();
         }
-        else if(choice == "stats")
+        else if(choice.equals("stats"))
         {
             stats();
         }
