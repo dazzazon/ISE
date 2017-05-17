@@ -120,10 +120,10 @@ public class InspectMe
         Scanner input = new Scanner("System.in");
         
         System.out.print("Enter kilometres: ");
-        miles = input.nextDouble();
+        kilometers = input.nextDouble();
         
         System.out.print("Enter miles: " );
-        kilometres = input.nextDouble();
+        miles = input.nextDouble();
         
         if(miles == kilometres)
         {
